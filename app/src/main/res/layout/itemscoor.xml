@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/tvIdC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="idc"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvnombres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombres"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvapellidos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apellidos"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvfechaNac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FechaNac"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvtitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Titulo"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello Email"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvfacultad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello Facultad"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/menu">
+
+    <fragment
+        android:id="@+id/coordinador"
+        android:name="com.example.myuca.coordinador"
+        android:label="fragment_coordinador"
+        tools:layout="@layout/fragment_coordinador" />
+    <fragment
+        android:id="@+id/menu"
+        android:name="com.example.myuca.menu"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" >
+
+        <action
+            android:id="@+id/action_menu_to_coordinador"
+            app:destination="@id/coordinador" />
+    </fragment>
+</navigation>
